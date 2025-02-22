@@ -1,0 +1,19 @@
+<section class="pb-120 mt-minus-300">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <div class="contest-details__slider-area">
+          <div class="contest-details__thumb-slider">
+            <p class="game-notice"><strong>Notice:</strong> Please wait while the game loads. If you see a black screen, don't worry—it will start shortly.</p>
+            <div class="game-container" id="gameContainer">
+              <img src="{{ page.game-icon }}" alt="{{ page.game-title }}" class="game-image" id="gameImage">
+              <button class="play-button" id="playButton">Play Now</button>
+              <iframe id="gameFrame" class="game-iframe"
+                src="{{ page.game-iframe }}"></iframe>
+              <button class="fullscreen-button" id="fullscreenButton">Fullscreen ⛶</button>
+            </div>
+          </div>
+        </div>
+      </div><!-- row end -->
+    </div>
+</section>

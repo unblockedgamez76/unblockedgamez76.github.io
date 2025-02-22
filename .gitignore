@@ -1,0 +1,4 @@
+# Ignore Gemfile and Gemfile.lock
+Gemfile
+Gemfile.lock
+_site
