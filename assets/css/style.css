@@ -782,6 +782,13 @@ padding: 15px;
 border-radius: 8px;
 }
 
+.games-thumb {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    object-fit: cover;
+}
+
 ul {
 list-style-type: square;
 }
